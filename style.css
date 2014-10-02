@@ -97,16 +97,6 @@ body {
 	margin: 10px auto;
 }
 
-/*#logo img {
-	margin-top: 200px;
-	margin-bottom: 30px;
-	padding-left: 210px;
-}*/
-
-#search {
-	
-}
-
 form {
 	text-align: center;
 }		
@@ -152,6 +142,26 @@ input {
     background-origin: padding-box;
     background-size: auto auto;
 	line-height: 30px;
+	display: table;
+	position: absolute; bottom: 0; left: 0;
+}
+
+.footer {
+	text-decoration: none;
+	color: #404040;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+.footer-left a:hover, .footer-right a:hover {
+	text-decoration: underline;
+}
+
+.footer-left a, .footer-right a{
+	text-decoration: none;
+	color: #404040;
+	font-family: arial, sans-serif;
+	font-size: 15px;
 }
 
 .footer-left li, .footer-right li {
@@ -159,14 +169,7 @@ input {
 	text-decoration: none;
 	display: inline;
 	padding-right: 25px;
-}
 
-.footer-right li a {
-	text-decoration: none;
-}
-
-.footer-left li a {
-	text-decoration: none;
 }
 
 .footer-left {
