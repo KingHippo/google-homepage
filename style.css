@@ -2,69 +2,11 @@ body {
 	font-family: arial, sans-serif;
 }
 
-#links li {
-	list-style-type: none;
-	padding-right: 15px;
-	text-decoration: none;
-	float: right;
-	display: inline;
-	margin-top: 4px;
-}
-
-#links a {
-	text-decoration: none;
-	color: #404040;
-	font-family: arial, sans-serif;
-	font-size: 15px;
-}
-
-/*#right-buttons li {
-	list-style-type: none;
-	padding-right: 15px;
-	text-decoration: none;
-	float: right;
-	display: inline;
-}*/
-
-#right-buttons {
-	text-decoration: none;
-	padding-right: 15px;
-	float: right;
-	color: #404040;
-	font-family: arial, sans-serif;
-	font-size: 15px;
-}
-
-#links a:hover {
-	text-decoration: underline;
-}
-
-#logo {
-	text-align: center;
-}
-
-#logo img {
-	margin-top: 200px;
-	margin-bottom: 30px;
-	padding-left: 210px;
-}
-
-form {
-	text-align: center;
-}		
-
-input {
-	width: 50%;
-	border-width: 1px 1px 1px 1px;
-	border-style: solid solid solid solid;
-}
-
 #buttons {
 	text-align: center;
 	margin-top: 10px;
 	font-size: 10px;
 	font-weight: bold;
-	
 }
 
 #blue-button a {
@@ -116,21 +58,121 @@ input {
 	color: white
 }
 
+#links li {
+	list-style-type: none;
+	padding-right: 15px;
+	text-decoration: none;
+	float: right;
+	display: inline;
+	margin-top: 4px;
+}
 
-footer {
+#links a {
+	text-decoration: none;
+	color: #404040;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+#right-buttons {
+	text-decoration: none;
+	padding-right: 15px;
+	float: right;
+	color: #404040;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+#links a:hover {
+	text-decoration: underline;
+}
+
+#content {
+	padding-top: 275px;
+	margin: auto;
+}
+
+#logo {
+	width: 290px;
+	margin: 10px auto;
+}
+
+/*#logo img {
+	margin-top: 200px;
+	margin-bottom: 30px;
+	padding-left: 210px;
+}*/
+
+#search {
+	
+}
+
+form {
+	text-align: center;
+}		
+
+input {
+	width: 50%;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid solid solid solid;
+}
+
+#maps {
 	padding-top: 50px;
 	text-align: center;
 }
 
-footer span {
+#maps span {
 	color: red;
 }
 
-footer a {
+#maps a {
 	color: purple;
 	text-decoration: none;
 }
 
-footer a:hover {
+#maps a:hover {
 	text-decoration: underline;
-}	font-family: arial, sans-serif;
+}
+
+#footer {
+	left: 0px;
+	width: 100%;
+	border-top: 1px solid #E4E4E4;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #E4E4E4;
+	background: none repeat scroll 0% 0% #F2F2F2;
+    background-color: #F2F2F2;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+	line-height: 30px;
+}
+
+.footer-left li, .footer-right li {
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	padding-right: 25px;
+}
+
+.footer-right li a {
+	text-decoration: none;
+}
+
+.footer-left li a {
+	text-decoration: none;
+}
+
+.footer-left {
+	float: left;
+}
+
+.footer-right {
+	float: right;
+}
