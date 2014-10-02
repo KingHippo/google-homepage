@@ -1,3 +1,7 @@
+body {
+	font-family: arial, sans-serif;
+}
+
 #links li {
 	list-style-type: none;
 	padding-right: 10px;
@@ -41,4 +45,22 @@ input {
 	margin-top: 10px;
 	font-size: 10px;
 	font-weight: bold;
+}
+
+footer {
+	padding-top: 50px;
+	text-align: center;
+}
+
+footer span {
+	color: red;
+}
+
+footer a {
+	color: purple;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
