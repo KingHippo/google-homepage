@@ -1,0 +1,44 @@
+#links li {
+	list-style-type: none;
+	padding-right: 10px;
+	text-decoration: none;
+	float: right;
+	display: inline;
+}
+
+#links a {
+	text-decoration: none;
+	color: #404040;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+#links a:hover {
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+#logo {
+	text-align: center;
+}
+
+#logo img {
+	margin-top: 200px;
+	margin-bottom: 30px;
+	padding-left: 210px;
+}
+
+form {
+	text-align: center;
+}		
+
+input {
+	width: 50%;
+}
+
+#buttons {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 10px;
+	font-weight: bold;
+}
